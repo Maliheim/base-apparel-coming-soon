@@ -15,10 +15,13 @@
 }
 
 .cont{
+    border: 2px solid slategrey;
+    height: 100vh;
     display: flex;
 }
 
 .b1dom{
+    border: 2px solid saddlebrown;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,18 +70,25 @@
 }
 
 .submitbtn{
-    z-index: -1;
-    /* margin-right: 42px; */
+    position: absolute;
+    right: 0;
     width: 40px;
     height: 42px;
 }
 
+.inputform{
+    position: relative;
+}
+
 .input{
-    position: absolute;
     padding-left: 16px;
     width: 360px;
     height: 42px;
     outline: none;
     border: 1px solid var(--lightred);
     border-radius: 20px;
+}
+
+.b2img{
+    height: 100vh
 }
