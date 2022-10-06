@@ -77,7 +77,7 @@
     position: relative;
 }
 
-.inputbox{
+#inputbox{
     padding-left: 16px;
     width: 360px;
     height: 42px;
